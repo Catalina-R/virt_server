@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Website</title>
-</head>
-<body>
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="contact.php">Contact</a></li>    
-    </ul>
+<?php include '/inc/header.php'; ?>
     <h1>About</h1>
 
-    <footer>
-        <p>MyWebsite &copy; 2019</p>
-    </footer>
-</body>
-</html> 
+<?php include '/inc/header.php'; ?>
