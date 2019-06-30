@@ -1,0 +1,15 @@
+{
+    "folders": [
+		{
+			"path": "/home/catalina/clone_git/virt_server"
+		},
+		{
+			"path": "/var/www/html/PHP_beginner"
+		}
+	],
+	"settings": {
+		"html.format.indentHandlebars": true,
+		"html.format.indentInnerHtml": true,
+		"html-css-class-completion.enableEmmetSupport": true
+	}
+}
