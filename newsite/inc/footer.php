@@ -6,6 +6,6 @@
 </style>
 <footer>
         <p>MyWebsite &copy; 2019</p>
-    </footer>
+</footer>
 </body>
 </html> 
