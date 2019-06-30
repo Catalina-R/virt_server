@@ -1,4 +1,4 @@
-<?php include '/inc/header.php'; ?>
+<?php include 'inc/header.php'; ?>
     <h1>About</h1>
 
-<?php include '/inc/header.php'; ?>
+<?php include 'inc/footer.php'; ?>
