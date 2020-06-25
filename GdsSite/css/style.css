@@ -1,19 +1,181 @@
-#main-header {
-    text-align: center;
-    background-color: rgb(175, 165, 209);
-    padding: 10px;
-}
-
-#main-footer {
-    text-align: center;
-    font-size: 18px;
-}
-
-h1 {
-    color: aquamarine;
-}
-
-h2 {
-    color: chartreuse;
-    background-color: grey;
-}
+    /*responsive display flex*/
+    
+    @media(min-width:468px) {
+        .container_1 {
+            display: flex;
+            padding: 20px;
+            margin-bottom: 20px;
+            /*default:
+                justify-content: flex-start;
+                justify-content: space-between;
+        */
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+    
+    body {
+        font: 16px/1.5 Garamond, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(203, 196, 226);
+    }
+    /*Globals*/
+    
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        color: aquamarine;
+    }
+    
+    h2 {
+        color: rgb(20, 8, 102);
+        background-color: rgb(143, 121, 121);
+    }
+    /*Elements*/
+    
+    #main-header {
+        text-align: center;
+        background-color: rgb(175, 165, 209);
+        padding: 20px;
+        text-align: center;
+        min-height: 70px;
+        border-bottom: rgb(151, 134, 207) 1px solid;
+    }
+    
+    #branding {
+        float: left;
+        color: #ffffff;
+        padding: 0 20px 0 20px;
+    }
+    
+    header nav {
+        background: rgb(175, 165, 209);
+        padding: 40px 20px 0 20px;
+        float: right;
+    }
+    
+    header nav a {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    
+    header nav a:hover {
+        color: saddlebrown;
+        font-weight: bold;
+    }
+    
+    header li {
+        float: righr;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+    
+    header .current a {
+        color: rgb(20, 8, 102);
+        font-weight: bold;
+    }
+    
+    header .highlight {
+        color: rgb(20, 8, 102);
+        font-weight: bold;
+        font-size: 50px;
+    }
+    /*Flex options with margins*/
+    /*code for desktop only
+    .container_1 {
+        display: flex;
+        padding: 40px;
+        margin-bottom: 20px;
+        /*default:
+            justify-content: flex-start;
+            justify-content: space-between;
+    
+        justify-content: space-around;
+    }*/
+    
+    .container_1 a {
+        color: red;
+        font-size: medium;
+        text-decoration: none;
+    }
+    
+    .container_1 a:hover {
+        color: blue;
+        font-weight: bold;
+    }
+    
+    .container_1 article {
+        background: rgb(222, 234, 235);
+        border: darkblue 0.5px solid;
+        border-radius: 4px;
+        padding: 10px;
+    }
+    
+    .post {
+        flex-basis: 20%;
+        margin-bottom: 16px;
+    }
+    
+    .post .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Using Flex*/
+    /*code for desktop only
+    .container_2 {
+        display: flex;
+        /*allign boxes:
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    Change Orientation:
+    flex-direction: column;
+    
+        justify-content: space-around;
+        padding: 40px;
+        margin-bottom: 20px;
+    }*/
+    
+    .container_1 div {
+        background: rgb(222, 234, 235);
+        border: darkblue 0.5px solid;
+        border-radius: 4px;
+        padding: 10px;
+    }
+    
+    .Box_1 {
+        /*flex: 1 ; flex and width + justify-content do not work together;
+        order: 2;*/
+        flex-basis: 27%;
+        margin-bottom: 16px;
+    }
+    
+    .Box_2 {
+        /*flex: 1;*/
+        flex-basis: 27%;
+        margin-bottom: 16px;
+    }
+    
+    .Box_3 {
+        /*flex: 1;*/
+        flex-basis: 27%;
+        margin-bottom: 16px;
+    }
+    
+    #main-footer {
+        text-align: center;
+        font-size: 16px;
+    }
